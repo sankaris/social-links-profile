@@ -1,0 +1,74 @@
+* {
+        font-family: "Inter";
+      }
+      body {
+        margin: 0 auto;
+      }
+      .attribution {
+        font-size: 0.6875rem;
+        text-align: center;
+      }
+      .attribution a {
+        color: hsl(228, 45%, 44%);
+      }
+      .container {
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+        justify-content: center;
+        align-items: center;
+        background-color: #000000;
+      }
+      .main {
+        padding: 20px;
+        border-radius: 10px;
+        display: block;
+        width: 260px;
+        background-color: #404040;
+        align-items: center;
+      }
+      .persona {
+        display: block;
+        text-align: center;
+        margin: 5px;
+        align-items: center;
+        justify-content: center;
+      }
+      .profileData {
+        justify-content: center;
+        align-items: center;
+      }
+      .profileImg {
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        object-fit: cover;
+      }
+      .socialBtn {
+        display: flex;
+        flex-direction: column;
+      }
+      .country {
+        color: #ffff4d;
+      }
+      .icon {
+        color: white;
+        background-color: #262626;
+        padding: 5px;
+        margin: 5px;
+        border-radius: 7px;
+        font-size: 12px;
+      }
+      .name {
+        color: white;
+        font-size: bold;
+      }
+      .tagLine {
+        color: white;
+        font-size: 12px;
+      }
+      .icon:hover {
+        background-color: #ffff4d;
+        color: black;
+        font-weight: bold;
+      }
